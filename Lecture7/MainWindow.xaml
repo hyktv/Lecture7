@@ -6,7 +6,16 @@
         xmlns:local="clr-namespace:Lecture7"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <!-- Button, Textbox, Label, Rich textbox -->
+    <StackPanel> <!-- The Layout Tags -->
+        <!-- The 3 layouts: Grid, Canvas, StackPanel-->
+        <Label Content="First Name"/>
+        <TextBox Name="txtGerald" Text="This uses the property text"/>
+        <Button Content="Say Hi Gerald" Name="btnHiGerald" Click="btnHiGerald_Click"/>
 
-    </Grid>
+    </StackPanel>
 </Window>
+    
+    <!--    <opening> and </closing tags> 
+            Self closing tag
+                <tag />     -->

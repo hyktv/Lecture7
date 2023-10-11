@@ -26,5 +26,12 @@ namespace Lecture7
         {
             InitializeComponent();
         }
+
+        private void btnHiGerald_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("This works");
+            string gerald = txtGerald.Text;
+
+        }
     }
 }
